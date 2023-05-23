@@ -15,6 +15,9 @@ def div_func(n1,n2) :
     result = n1 / n2
     return result
 
+def mulmul_func(n1):
+    return n1**2
+
 ## 전역 변수부(인스턴스 변수)
 num1,num2,res = 100, 200, 0
 
@@ -32,3 +35,9 @@ print(num1,'*',num2,'=',res)
 
 res = div_func(num1,num2)
 print(num1,'/',num2,'=',res)
+
+res = mulmul_func(num1)
+print(num1,'^2','=',res)
+
+res = mulmul_func(num2)
+print(num2,'^2','=',res)
